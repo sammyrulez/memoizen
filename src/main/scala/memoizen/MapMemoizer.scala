@@ -2,7 +2,7 @@ package memoizen
 
 
 
-class MapMemoizer[A, B](f: A => B, val size:Option[Int] = None) { 
+class MapMemoizer[A, B](f: A => B, val size:Option[Int] = None) extends Memoizer[A, B] { 
 
       val cache = scala.collection.mutable.Map[A, B]()
       def apply(x: A): B = {

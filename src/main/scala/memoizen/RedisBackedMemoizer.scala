@@ -9,9 +9,9 @@ import com.fasterxml.jackson.module.scala.DefaultScalaModule
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.core.`type`.TypeReference;
 
-class RedisBackedMemoizer[A, B:Manifest](f: A => B, val host: String) {
+class RedisBackedMemoizer[A, B:Manifest](f: A => B, val host: String,val port:Int = 6379) extends Memoizer[A,B] {
 
-  private val redis: RedisClient = new RedisClient(host, 6379)
+  private val redis: RedisClient = new RedisClient(host, port)
 
   def apply(x: A): B = {
     
