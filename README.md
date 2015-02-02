@@ -1,6 +1,8 @@
 # memoizen
 Simple memoization lib for scala
 
+[![Build Status](https://travis-ci.org/sammyrulez/memoizen.svg?branch=master)](https://travis-ci.org/sammyrulez/memoizen)
+
 With memoizen you can easily create a momoized version of any function.
 
 ```
