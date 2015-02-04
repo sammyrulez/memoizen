@@ -1,10 +1,5 @@
 language: java
 script: mvn verify cobertura:cobertura
-notifications:
-# Email notifications are disabled to not annoy anybody.
-# See http://about.travis-ci.org/docs/user/build-configuration/ to learn more
-# about configuring notification recipients and more.
-# webhooks: TBD
-email: false
+
 services:
 - redis-server
