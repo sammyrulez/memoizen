@@ -79,6 +79,7 @@
 				<version>2.6</version>
 				<configuration>
 					<format>html</format>
+					<format>xml</format>
 					<maxmem>256m</maxmem>
 				</configuration>
 			</plugin>
