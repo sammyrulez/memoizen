@@ -10,8 +10,6 @@
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
-
 	</properties>
 
 	<build>
@@ -94,12 +92,7 @@
 			</plugin>
 		</plugins>
 	</build>
-
-
-
 	<dependencies>
-
-
 		<dependency>
 			<groupId>org.specs2</groupId>
 			<artifactId>specs2_2.10</artifactId>
@@ -126,10 +119,5 @@
 			<artifactId>jackson-module-scala_2.10</artifactId>
 			<version>2.5.0</version>
 		</dependency>
-
-
-
-
-
 	</dependencies>
 </project>
