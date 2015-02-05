@@ -6,8 +6,8 @@ import org.specs2.runner.JUnitRunner
 
 
 @RunWith(classOf[JUnitRunner])
-class FactorySpec extends Specification{
-  
+class FactorySpecTest extends Specification{
+    
    def strSqLen(s: String) = {s.length*s.length }
 
   "The 'Memoizer'" should {

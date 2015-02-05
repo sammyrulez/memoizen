@@ -9,7 +9,7 @@ import org.specs2.mutable.Specification
 class Dummy(val x:String)
 
 @RunWith(classOf[JUnitRunner])
-class RedisSpec  extends Specification{
+class RedisSpecTest  extends Specification{
 	
   def strSqLen(s: String) = {s.length*s.length }
   

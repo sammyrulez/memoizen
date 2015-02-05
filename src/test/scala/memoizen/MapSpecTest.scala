@@ -7,7 +7,7 @@ import java.util.Date
 
 
 @RunWith(classOf[JUnitRunner])
-class MapSpec extends Specification{
+class MapSpecTest extends Specification{
   
  
  def strSqLen(s: String) = {s.length*s.length }

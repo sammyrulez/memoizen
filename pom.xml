@@ -58,21 +58,7 @@
 					</includes>
 				</configuration>
 			</plugin>
-			<plugin>
-
-				<groupId>com.mmakowski</groupId>
-				<artifactId>maven-specs2-plugin</artifactId>
-				<version>0.4.2</version>
-				<executions>
-					<execution>
-						<id>verify</id>
-						<phase>verify</phase>
-						<goals>
-							<goal>run-specs</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
+			
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>cobertura-maven-plugin</artifactId>
